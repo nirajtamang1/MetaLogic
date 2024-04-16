@@ -24,7 +24,7 @@ function SoftwareDevelopment() {
                 className="col-md-6"
               />
               <div className="col-md-6" data-aos="fade-right">
-                <h3>Software Development</h3>
+                <h4>Software Development</h4>
                 <h1>
                   Building Through success
                   <span> Custom Software Solutions</span>
@@ -42,7 +42,7 @@ function SoftwareDevelopment() {
           {/* Hero Section End Here */}
 
           {/* Benefits Section Start Here  */}
-          <section id="benefits" className="mt-5 py-5">
+          <section id="benefits" className="mt-5 py-5 ">
             <div data-aos="fade-down">
               <div>
                 <h1>Major Benefits of custom software development</h1>
@@ -51,12 +51,12 @@ function SoftwareDevelopment() {
                   software that adapts to evolving standards.
                 </p>
               </div>
-              <div className="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-3">
+              <div className="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-3 text-center mt-3">
                 <div className="col">
                   <div className="card h-100 d-flex align-items-center">
                     <img
                       src={starImg}
-                      alt=""
+                      alt="image of star"
                       style={{ width: "100px", height: "100px" }}
                     />
                     <div className="car-body">
@@ -123,7 +123,7 @@ function SoftwareDevelopment() {
               id="experience"
               className="d-md-flex flex-md-row flex-column my-5"
             >
-              <div className="col-md-6" data-aos="fade-left">
+              <div className="col-md-6" data-aos="fade-right">
                 <h1>Proven Industry Experience</h1>
                 <p>
                   Experience the advantage of partnering with a team that has

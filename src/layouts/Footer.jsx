@@ -13,12 +13,12 @@ const Footer = () => {
   return (
     <>
       <footer>
-        <div>
+        <div className="p-5">
           <div
-            className="relative d-md-flex justify-content-between"
+            className="d-md-flex justify-content-between"
             data-aos="slide-up"
           >
-            <div className="row">
+            <div className="row mt-4">
               <div className="d-md-flex">
                 <img
                   src={metalogo}
@@ -42,7 +42,7 @@ const Footer = () => {
                 </div>
               </div>
             </div>
-            <div>
+            <div className="mt-4">
               <h3>Company</h3>
               <ul>
                 <li>Feedback</li>
@@ -50,7 +50,7 @@ const Footer = () => {
                 <li>Terms and Conditions</li>
               </ul>
             </div>
-            <div>
+            <div className="mt-4">
               <h3>Services</h3>
               <ul>
                 <li>Custom Software Development</li>
@@ -64,14 +64,14 @@ const Footer = () => {
                 <li>Blockchain Solutions</li>
               </ul>
             </div>
-            <div>
+            <div className="mt-4">
               <h3>Join</h3>
               <ul>
                 <li>Careers at MetaLogic</li>
                 <li>Internships</li>
               </ul>
             </div>
-            <div>
+            <div className="mt-4">
               <h3>Join us on Social Medias</h3>
               <tr className="d-md-flex  justify-content-evenly">
                 <td>

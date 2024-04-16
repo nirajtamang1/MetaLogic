@@ -6,7 +6,7 @@ function Home() {
     <Layout>
       <div
         style={{ height: "60vh" }}
-        className="d-flex flex-column justify-content-center align-items-xl-center"
+        className="container d-flex flex-column justify-content-center align-items-xl-center"
       >
         <h1>Home Page</h1>
         <p>

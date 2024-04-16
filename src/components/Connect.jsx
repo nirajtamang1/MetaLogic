@@ -1,19 +1,25 @@
 import React from "react";
 import { FaArrowRight } from "react-icons/fa";
-import metalogo from "../Assests/images/metalogo.png";
+import connectImg from "../Assests/images/contact.jpg";
 
 function Connect() {
   return (
     <>
       {/* Connect Section Start Here  */}
-      <section className="contact-us py-5">
+      <section className="contact">
         <div
-          className="row flex-md-row align-items-center justify-content-end  bg-primary"
-          data-aos="fade-left"
+          className="row flex-md-row align-items-center justify-content-end "
+          data-aos="fade-up-right"
+          style={{
+            backgroundColor: "#645DD7",
+            paddingTop: "20px",
+            paddingBottom: "20px",
+            paddingRight: "20px",
+          }}
         >
           <img
-            src={metalogo}
-            alt="image of benefits"
+            src={connectImg}
+            alt="image of connect"
             className="col-md-4 d-none d-md-block"
             style={{
               width: "20%",
@@ -27,7 +33,7 @@ function Connect() {
             style={{ display: "flex", justifyContent: "end" }}
           >
             <div>
-              <h1>Have a Project in Mind?</h1>
+              <h1 style={{ color: "white" }}>Have a Project in Mind?</h1>
               <p>Let's Connect and Ignite Success!</p>
               <button>
                 Get Your Quote <FaArrowRight />{" "}
@@ -36,7 +42,7 @@ function Connect() {
           </div>
         </div>
       </section>
-      {/* ContactUs Section End Here  */}
+      {/* Connect Section End Here  */}
     </>
   );
 }

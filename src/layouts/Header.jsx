@@ -15,10 +15,10 @@ const Header = () => {
                 alt="logo of company"
                 style={{ width: "30px", height: "30px", marginRight: "8PX" }}
               />
-              Metalogic
+              <span className="companyName">Metalogic</span>
             </div>
             <button
-              className="navbar-toggler"
+              className="navbar-toggler breadcrum"
               type="button"
               data-bs-toggle="collapse"
               data-bs-target="#navbarSupportedContent"

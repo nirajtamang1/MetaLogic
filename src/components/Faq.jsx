@@ -5,11 +5,14 @@ function Faq() {
     <>
       {/* Frequently Ask question Start Here  */}
       <section id="faq my-5">
-        <div data-aos="fade-down">
+        <div data-aos="fade-down" className="my-5">
           <h1>
             <span>FAQs</span> (Frequently Asked Questions)
           </h1>
-          <div className="accordion accordion-flush" id="accordionFlushExample">
+          <div
+            className="accordion accordion-flush my-5"
+            id="accordionFlushExample"
+          >
             <div className="accordion-item">
               <h2 className="accordion-header">
                 <button

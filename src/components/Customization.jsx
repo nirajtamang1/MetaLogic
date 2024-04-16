@@ -8,15 +8,15 @@ function Customization() {
       <section className="customization-area my-5" data-aos="fade-in">
         <div
           className="row flex-md-row-reverse justify-content-center align-items-center"
-          data-aos="fade-right"
+          data-aos="flip-right"
         >
           <img
             src={customizationImg}
             alt="image of Customization and Scalability"
             className="col-md-6"
           />
-          <div className="col-md-6">
-            <h3>CUSTOMIZATION AND SCALABILITY</h3>
+          <div className="col-md-6 my-5">
+            <h4>CUSTOMIZATION AND SCALABILITY</h4>
             <h1>Crafting Solutions Just for You</h1>
             <p>
               Discover how we personalize your experience with customized
