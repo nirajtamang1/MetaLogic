@@ -10,10 +10,80 @@ import Benefits from "../../components/Benefits";
 import Faq from "../../components/Faq";
 import Connect from "../../components/Connect";
 
+import { MdOutlineSavings } from "react-icons/md";
+import { FiUmbrella } from "react-icons/fi";
+import { LiaIndustrySolid } from "react-icons/lia";
+import { CiShop } from "react-icons/ci";
+import { MdMiscellaneousServices } from "react-icons/md";
+
+const benefitsData = [
+  {
+    text: "Functionality is fully tailored to your requirements",
+  },
+  {
+    text: "Flexibility to evolve the solution when needed.",
+  },
+  {
+    text: "Short learning curve due to tailored UX and UI.",
+  },
+  {
+    text: "Powerful security of data and digital assets.",
+  },
+  {
+    text: "Functionality is fully tailored to your requirements.",
+  },
+  {
+    text: "The ability to use advanced techs (AI/ML, blockchain, IoT, etc.)",
+  },
+];
+
+const experienceData = [
+  {
+    icon: (
+      <FaHeartbeat style={{ width: "30px", height: "30px", color: "red" }} />
+    ),
+    text: "Health Industry",
+  },
+  {
+    icon: (
+      <MdOutlineSavings
+        style={{ width: "30px", height: "30px", color: "green" }}
+      />
+    ),
+    text: "Investment",
+  },
+  {
+    icon: (
+      <FiUmbrella style={{ width: "30px", height: "30px", color: "blue" }} />
+    ),
+    text: "Insurance",
+  },
+  {
+    icon: (
+      <LiaIndustrySolid
+        style={{ width: "30px", height: "30px", color: "gray" }}
+      />
+    ),
+    text: "Manufacturing",
+  },
+  {
+    icon: <CiShop style={{ width: "30px", height: "30px", color: "orange" }} />,
+    text: "Retails",
+  },
+  {
+    icon: (
+      <MdMiscellaneousServices
+        style={{ width: "30px", height: "30px", color: "pink" }}
+      />
+    ),
+    text: "Professional Services",
+  },
+];
+
 function SoftwareDevelopment() {
   return (
     <>
-      <Layout>
+      <Layout title="Custom Software Development">
         <div className="container mt-5">
           {/* Hero Section Start Here  */}
           <section id="hero">
@@ -52,66 +122,20 @@ function SoftwareDevelopment() {
                 </p>
               </div>
               <div className="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-3 text-center mt-3">
-                <div className="col">
-                  <div className="card h-100 d-flex align-items-center">
-                    <img
-                      src={starImg}
-                      alt="image of star"
-                      style={{ width: "100px", height: "100px" }}
-                    />
-                    <div className="car-body">
-                      <p>
-                        Functionality is <span>fully tailored</span> to your
-                        requirements.
-                      </p>
+                {benefitsData.map((benefit, index) => (
+                  <div className="col" key={index}>
+                    <div className="card h-100 d-flex align-items-center">
+                      <img
+                        src={starImg}
+                        alt="image of star"
+                        style={{ width: "100px", height: "100px" }}
+                      />
+                      <div className="car-body">
+                        <p>{benefit.text}</p>
+                      </div>
                     </div>
                   </div>
-                </div>
-                <div className="col">
-                  <div className="card h-100 d-flex align-items-center">
-                    <img
-                      src={starImg}
-                      alt=""
-                      style={{ width: "100px", height: "100px" }}
-                    />
-                    <div className="car-body">
-                      <p>
-                        Functionality is <span>fully tailored</span> to your
-                        requirements.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div className="col">
-                  <div className="card h-100 d-flex align-items-center">
-                    <img
-                      src={starImg}
-                      alt=""
-                      style={{ width: "100px", height: "100px" }}
-                    />
-                    <div className="car-body">
-                      <p>
-                        Functionality is <span>fully tailored</span> to your
-                        requirements.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div className="col">
-                  <div className="card h-100 d-flex align-items-center">
-                    <img
-                      src={starImg}
-                      alt=""
-                      style={{ width: "100px", height: "100px" }}
-                    />
-                    <div className="car-body">
-                      <p>
-                        Functionality is <span>fully tailored</span> to your
-                        requirements.
-                      </p>
-                    </div>
-                  </div>
-                </div>
+                ))}
               </div>
             </div>
           </section>
@@ -119,11 +143,8 @@ function SoftwareDevelopment() {
 
           {/* Industry Experience Start Here */}
           <section>
-            <div
-              id="experience"
-              className="d-md-flex flex-md-row flex-column my-5"
-            >
-              <div className="col-md-6" data-aos="fade-right">
+            <div id="experience" className="d-md-flex flex-md-row flex-column ">
+              <div className="col-md-6 p-5" data-aos="fade-right">
                 <h1>Proven Industry Experience</h1>
                 <p>
                   Experience the advantage of partnering with a team that has
@@ -136,30 +157,23 @@ function SoftwareDevelopment() {
                   className="row row-cols-1 row-cols-md-2 row-cols-lg-3 justify-content-center"
                   data-aos="fade-right"
                 >
-                  <div>
-                    <FaHeartbeat />
-                    <p>Heath Industry</p>
-                  </div>
-                  <div>
-                    <FaHeartbeat />
-                    <p>Heath Industry</p>
-                  </div>
-                  <div>
-                    <FaHeartbeat />
-                    <p>Heath Industry</p>
-                  </div>
-                  <div>
-                    <FaHeartbeat />
-                    <p>Heath Industry</p>
-                  </div>
-                  <div>
-                    <FaHeartbeat />
-                    <p>Heath Industry</p>
-                  </div>
-                  <div>
-                    <FaHeartbeat />
-                    <p>Heath Industry</p>
-                  </div>
+                  {experienceData.map((data, index) => (
+                    <div
+                      style={{
+                        border: "1px solid #ccc",
+                        borderRadius: "20PX",
+                        backgroundColor: "#f0f0f0",
+                        color: "#4c4c4c",
+                        margin: "2px",
+                        paddingTop: "10px",
+                      }}
+                      key={index}
+                      className=" mb-3"
+                    >
+                      {data.icon}
+                      <p>{data.text}</p>
+                    </div>
+                  ))}
                 </div>
               </div>
             </div>

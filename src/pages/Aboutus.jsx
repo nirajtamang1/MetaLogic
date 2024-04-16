@@ -1,14 +1,14 @@
 import React from "react";
 import Layout from "../layouts/Layout";
 
-function Home() {
+function Aboutus() {
   return (
-    <Layout>
+    <Layout title="Metalogic: Elevating Your Online Presence with Expert Websites solution">
       <div
         style={{ height: "60vh" }}
         className="container d-flex flex-column justify-content-center align-items-xl-center"
       >
-        <h1 className="mt-5">Home Page</h1>
+        <h1 className="mt-5">About Us Page</h1>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex assumenda
           tempore est quibusdam dolore facilis aspernatur, nemo in numquam
@@ -23,4 +23,4 @@ function Home() {
   );
 }
 
-export default Home;
+export default Aboutus;
