@@ -7,7 +7,10 @@ const Header = () => {
   return (
     <>
       <header>
-        <nav className="navbar navbar-expand-lg bg-body-tertiaryss">
+        <nav
+          className="navbar navbar-expand-lg bg-body-tertiaryss fixed-top"
+          style={{ backgroundColor: "#0c1b33" }}
+        >
           <div className="container-fluid">
             <div>
               <img

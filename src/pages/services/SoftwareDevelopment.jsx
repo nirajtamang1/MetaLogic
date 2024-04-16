@@ -95,10 +95,7 @@ function SoftwareDevelopment() {
               />
               <div className="col-md-6" data-aos="fade-right">
                 <h4>Software Development</h4>
-                <h1>
-                  Building Through success
-                  <span> Custom Software Solutions</span>
-                </h1>
+                <h1>Building Through Success Custom Software Solutions</h1>
                 <p>
                   Experience the Future of Your Business with Our Custom
                   Software Development Services. We Design Solutions as Unique
