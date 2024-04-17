@@ -6,7 +6,7 @@ function Connect() {
   return (
     <>
       {/* Connect Section Start Here  */}
-      <section className="contact">
+      <section id="connect">
         <div
           className="row flex-md-row align-items-center justify-content-end "
           data-aos="fade-up-right"
@@ -19,7 +19,7 @@ function Connect() {
         >
           <img
             src={connectImg}
-            alt="image of connect"
+            alt="Image of connect"
             className="col-md-4 d-none d-md-block"
             style={{
               width: "20%",

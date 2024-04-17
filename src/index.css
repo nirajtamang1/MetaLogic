@@ -17,7 +17,7 @@ body {
 }
 
 .companyName {
-  font-size: large;
+  font-size: x-large;
   font-weight: bold;
 }
 
@@ -42,7 +42,9 @@ h4 {
   color: var(--primary-accent-color);
   text-transform: uppercase;
 }
-
+h6 {
+  color: var(--primary-accent-color);
+}
 ul {
   list-style-type: none;
   padding: 0;

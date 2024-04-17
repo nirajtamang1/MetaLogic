@@ -5,7 +5,7 @@ function Methodology() {
   return (
     <>
       {/* Methodology Start Here  */}
-      <section className="methodology-area my-5">
+      <section id="methodology" className="methodology-area my-5">
         <div
           className="row flex-md-row justify-content-center align-items-center"
           data-aos="flip-left"

@@ -5,7 +5,7 @@ function Customization() {
   return (
     <>
       {/* Customization and Scalability start here  */}
-      <section className="customization-area my-5" data-aos="fade-in">
+      <section id="customization-area" className="my-5" data-aos="fade-in">
         <div
           className="row flex-md-row-reverse justify-content-center align-items-center"
           data-aos="flip-right"

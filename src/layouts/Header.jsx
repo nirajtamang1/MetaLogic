@@ -16,7 +16,7 @@ const Header = () => {
               <img
                 src={metalogo}
                 alt="logo of company"
-                style={{ width: "30px", height: "30px", marginRight: "8PX" }}
+                style={{ width: "30px", height: "30px", marginRight: "8px" }}
               />
               <span className="companyName">Metalogic</span>
             </div>

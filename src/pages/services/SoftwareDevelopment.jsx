@@ -84,7 +84,7 @@ function SoftwareDevelopment() {
   return (
     <>
       <Layout title="Custom Software Development">
-        <div className="container mt-5">
+        <div className="container mt-5 pt-5">
           {/* Hero Section Start Here  */}
           <section id="hero">
             <div className="row flex-md-row-reverse justify-content-center align-items-center">
@@ -139,8 +139,8 @@ function SoftwareDevelopment() {
           {/* Benefits Section End Here  */}
 
           {/* Industry Experience Start Here */}
-          <section>
-            <div id="experience" className="d-md-flex flex-md-row flex-column ">
+          <section id="experience">
+            <div className="d-md-flex flex-md-row flex-column ">
               <div className="col-md-6 p-5" data-aos="fade-right">
                 <h1>Proven Industry Experience</h1>
                 <p>
