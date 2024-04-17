@@ -5,6 +5,7 @@ function Blogs() {
   return (
     <Layout title="Blogs | Metalogic">
       <div
+        data-aos="fade-right"
         style={{ height: "60vh" }}
         className="container d-flex flex-column justify-content-center align-items-xl-center"
       >

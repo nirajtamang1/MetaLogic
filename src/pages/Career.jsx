@@ -5,6 +5,7 @@ function Career() {
   return (
     <Layout title="Join MetaLogic: Explore Exciting Career Opportunites in Innovation">
       <div
+        data-aos="fade-right"
         style={{ height: "60vh" }}
         className="container d-flex flex-column justify-content-center align-items-xl-center"
       >

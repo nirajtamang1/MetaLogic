@@ -12,7 +12,7 @@ const Layout = ({ children, title, description, keyword }) => {
         <title>{title}</title>
       </Helmet>
       <Header />
-      <main>{children}</main>
+      <main className="mt-5 pt-5">{children}</main>
       <Footer />
     </>
   );

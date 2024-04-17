@@ -84,7 +84,7 @@ function SoftwareDevelopment() {
   return (
     <>
       <Layout title="Custom Software Development">
-        <div className="container mt-5 pt-5">
+        <div className="container">
           {/* Hero Section Start Here  */}
           <section id="hero">
             <div className="row flex-md-row-reverse justify-content-center align-items-center">

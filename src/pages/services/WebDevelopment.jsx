@@ -14,7 +14,7 @@ import { FaGitAlt } from "react-icons/fa";
 function WebDevelopment() {
   return (
     <Layout title="Web Development Services my MetaLogic">
-      <div className="container mt-5 pt-5">
+      <div className="container">
         {/* Hero Section Start Here  */}
         <section id="hero">
           <div className="row flex-md-row-reverse justify-content-center align-items-center">
@@ -23,7 +23,7 @@ function WebDevelopment() {
               alt="image of website  development"
               className="col-md-6"
             />
-            <div className="col-md-6" data-aos="fade-right">
+            <div className="col-md-6 mt-5" data-aos="fade-right">
               <h4>WEBSITE DEVELOPMENT</h4>
               <h1>Scalable & Seamless Web Development</h1>
               <p>
