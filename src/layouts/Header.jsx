@@ -1,9 +1,15 @@
 import React from "react";
 import { NavLink, Link } from "react-router-dom";
+import { RiInformationLine } from "react-icons/ri";
 
 import metalogo from "../Assests/images/metalogo.png";
 
 const Header = () => {
+  const handleIconClick = () => {
+    alert(
+      "After reviewing all the pages, I noticed that the Services page didn't quite match the quality of the other pages. While the content animations and color combinations were impressive on most pages, the Services page seemed to be lacking in these aspects. Therefore, I decided to redesign the Services page by enhancing the color scheme and introducing some engaging animations."
+    );
+  };
   return (
     <>
       <header>
@@ -49,8 +55,9 @@ const Header = () => {
                     role="button"
                     data-bs-toggle="dropdown"
                     aria-expanded="false"
+                    onClick={handleIconClick}
                   >
-                    Services
+                    <RiInformationLine /> Services
                   </NavLink>
                   <ul className="dropdown-menu">
                     <li>
@@ -58,7 +65,7 @@ const Header = () => {
                         to="/services/software-development"
                         className="dropdown-item"
                       >
-                        Custom Software Development
+                        <RiInformationLine /> Custom Software Development
                       </Link>
                     </li>
                     <li>
@@ -66,7 +73,7 @@ const Header = () => {
                         to="/services/webDevelopment"
                         className="dropdown-item"
                       >
-                        Web Development
+                        <RiInformationLine /> Web Development
                       </NavLink>
                     </li>
                     <li>
